@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         viewPager =(ViewPager)findViewById(R.id.viewpager_id);
         ViewPageAdapter adapter = new ViewPageAdapter(getSupportFragmentManager());
 //adding fragments...........
-        adapter.AddFragment(new In(),"Sign In");
+        adapter.AddFragment(new In(),"Sign In ddd");
         adapter.AddFragment(new Up(),"Sign Up");
         // setup adapter....
         viewPager.setAdapter(adapter);
